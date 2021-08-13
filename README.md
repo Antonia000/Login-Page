@@ -1,7 +1,3 @@
-Personal Web Projects using HTML,CSS,BOOTSTRAP,JAVASCRIPT
+Personal Web Project using HTML,CSS,BOOTSTRAP,JAVASCRIPT(jQuery and Ajax)
 
--Login and Sign Up Pages 
 
--SunChase Shop 
-
--Online Menu Page

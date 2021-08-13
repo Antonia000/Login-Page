@@ -1,0 +1,106 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.illustration {
+    float: left;
+    width: 60%;
+    margin-top: 0px;
+}
+
+.form {
+    float: right;
+    width: 40%;
+    margin-top: 120px 0px;
+}
+
+    .form img {
+        width: 120px;
+        display: block;
+        margin: auto;
+    }
+
+.items {
+    width: 350px;
+    padding-top: 30px;
+}
+
+.illustration img {
+    width: 100%;
+    height: 100%;
+}
+
+label {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+i {
+    position: absolute;
+    padding-top: 10px;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid #8c8c8c;
+    width: 300px;
+    margin-bottom: 20px;
+    outline: none;
+    height: 40px;
+}
+
+.fieldone, .fieldtwo {
+    width: 300px;
+}
+
+.button {
+    width: 100px;
+    margin: 30px auto;
+    outline-color: #B982F3;
+    border: 1px solid #B982F3;
+    border-radius: 35px;
+    text-align: center;
+    padding: 5px;
+}
+
+    .button:hover {
+        background-color: #B982F3;
+    }
+
+.up {
+    position: relative;
+    margin: 0;
+    font-size: 16px;
+    color: #B982F3;
+}
+
+@media screen and (max-width:1200px) {
+    .illustration {
+        display: none;
+    }
+
+    .form {
+        float: none;
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+    input {
+        width: 250px;
+    }
+
+    .fieldone, .fieldtwo {
+        width: 250px;
+        margin: auto;
+    }
+}

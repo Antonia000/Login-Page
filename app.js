@@ -14,7 +14,7 @@ $(function () {
 
     $.ajax({
         type: 'GET',
-        url: "http://jsonplaceholder.typicode.com/users",
+        url: "https://jsonplaceholder.typicode.com/users",
         success: function (data) {
             $users = $(".response");
     
